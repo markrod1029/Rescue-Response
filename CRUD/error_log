@@ -1,0 +1,64 @@
+[27-Jan-2023 08:51:17 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php on line 2
+[27-Jan-2023 08:53:14 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php on line 2
+[27-Jan-2023 08:54:34 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php on line 2
+[31-Jan-2023 12:59:36 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php on line 2
+[07-Feb-2023 13:30:46 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/update_profile.php on line 12
+[16-May-2023 06:28:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php:2
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php(2): mysqli->__construct()
+#1 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/session.php(2): include('/home/tj6gnl1k9...')
+#2 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/user_location.php(3): include_once('/home/tj6gnl1k9...')
+#3 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php on line 2
+[16-May-2023 06:30:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php:2
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php(2): mysqli->__construct()
+#1 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/session.php(2): include('/home/tj6gnl1k9...')
+#2 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/user_location.php(3): include_once('/home/tj6gnl1k9...')
+#3 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php on line 2
+[16-May-2023 06:31:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php:2
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php(2): mysqli->__construct()
+#1 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/session.php(2): include('/home/tj6gnl1k9...')
+#2 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/user_location.php(3): include_once('/home/tj6gnl1k9...')
+#3 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php on line 2
+[16-May-2023 06:32:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php:2
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php(2): mysqli->__construct()
+#1 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/session.php(2): include('/home/tj6gnl1k9...')
+#2 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/user_location.php(3): include_once('/home/tj6gnl1k9...')
+#3 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php on line 2
+[16-May-2023 06:34:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php:2
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php(2): mysqli->__construct()
+#1 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/session.php(2): include('/home/tj6gnl1k9...')
+#2 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/user_location.php(3): include_once('/home/tj6gnl1k9...')
+#3 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php on line 2
+[16-May-2023 14:49:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php:2
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php(2): mysqli->__construct()
+#1 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/session.php(2): include('/home/tj6gnl1k9...')
+#2 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/user_location.php(3): include_once('/home/tj6gnl1k9...')
+#3 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php on line 2
+[16-May-2023 14:50:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php:2
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php(2): mysqli->__construct()
+#1 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/user_location.php(3): include_once('/home/tj6gnl1k9...')
+#2 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/conn.php on line 2
+[21-May-2023 09:38:39 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/update_profile.php on line 12
+[22-May-2023 01:55:57 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/update_profile.php on line 12
+[22-May-2023 01:55:57 UTC] PHP Warning:  Undefined array key "extension" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/update_profile.php on line 16
+[22-May-2023 02:00:55 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/update_profile.php on line 12
+[22-May-2023 02:00:55 UTC] PHP Warning:  Undefined array key "extension" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/update_profile.php on line 16
+[22-May-2023 02:01:31 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/update_profile.php on line 12
+[22-May-2023 02:01:32 UTC] PHP Warning:  Undefined array key "extension" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/update_profile.php on line 16
+[22-May-2023 02:03:40 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/update_profile.php on line 14
+[22-May-2023 02:03:40 UTC] PHP Warning:  Undefined array key "extension" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/update_profile.php on line 18
+[22-May-2023 02:04:16 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/update_profile.php on line 14
+[22-May-2023 02:04:16 UTC] PHP Warning:  Undefined array key "extension" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/CRUD/update_profile.php on line 18

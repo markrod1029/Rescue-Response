@@ -1,0 +1,80 @@
+[06-Feb-2023 07:26:37 UTC] PHP Warning:  Undefined array key "address" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/proof.php on line 131
+[06-Feb-2023 07:26:37 UTC] PHP Warning:  Undefined array key "lat" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/proof.php on line 132
+[06-Feb-2023 07:26:37 UTC] PHP Warning:  Undefined array key "long" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/proof.php on line 133
+[06-Feb-2023 07:41:29 UTC] PHP Warning:  Undefined array key "address" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/proof.php on line 131
+[06-Feb-2023 07:41:29 UTC] PHP Warning:  Undefined array key "lat" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/proof.php on line 132
+[06-Feb-2023 07:41:29 UTC] PHP Warning:  Undefined array key "long" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/proof.php on line 133
+[06-Feb-2023 07:42:02 UTC] PHP Warning:  Undefined array key "address" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/proof.php on line 131
+[06-Feb-2023 07:42:02 UTC] PHP Warning:  Undefined array key "lat" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/proof.php on line 132
+[06-Feb-2023 07:42:02 UTC] PHP Warning:  Undefined array key "long" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/proof.php on line 133
+[12-May-2023 02:58:11 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/login_process.php on line 6
+[15-May-2023 06:25:02 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/forgot.php on line 39
+[15-May-2023 06:25:16 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/forgot.php on line 39
+[15-May-2023 06:25:18 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/forgot.php on line 39
+[15-May-2023 14:26:32 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'sc_db.student' doesn't exist in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/forgot_process.php:33
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/forgot_process.php(33): mysqli->query()
+#1 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/forgot_process.php on line 33
+[15-May-2023 14:34:26 Asia/Manila] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'sc_db.student' doesn't exist in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/forgot_process.php:33
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/forgot_process.php(33): mysqli->query()
+#1 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/forgot_process.php on line 33
+[15-May-2023 14:44:47 Asia/Manila] PHP Warning:  Undefined variable $conn in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php on line 98
+[15-May-2023 14:44:47 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php on line 98
+[15-May-2023 14:46:03 Asia/Manila] PHP Warning:  Undefined variable $conn in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php on line 98
+[15-May-2023 14:46:03 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php on line 98
+[15-May-2023 14:46:08 Asia/Manila] PHP Warning:  Undefined variable $conn in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php on line 98
+[15-May-2023 14:46:08 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php on line 98
+[15-May-2023 14:46:21 Asia/Manila] PHP Warning:  Undefined variable $conn in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php on line 98
+[15-May-2023 14:46:21 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php on line 98
+[15-May-2023 14:48:22 Asia/Manila] PHP Warning:  Undefined variable $conn in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php on line 98
+[15-May-2023 14:48:22 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php on line 98
+[15-May-2023 14:48:28 Asia/Manila] PHP Warning:  Undefined variable $conn in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php on line 98
+[15-May-2023 14:48:28 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/reset.php on line 98
+[15-May-2023 06:53:18 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/login_process.php on line 6
+[15-May-2023 06:59:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'where clause' in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/newpass.php:119
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/newpass.php(119): mysqli->query()
+#1 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/newpass.php on line 119
+[15-May-2023 06:59:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'where clause' in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/newpass.php:119
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/newpass.php(119): mysqli->query()
+#1 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/newpass.php on line 119
+[15-May-2023 07:00:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'where clause' in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/newpass.php:119
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/newpass.php(119): mysqli->query()
+#1 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/newpass.php on line 119
+[15-May-2023 07:00:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'where clause' in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/newpass.php:119
+Stack trace:
+#0 /home/tj6gnl1k9vif/public_html/sccp-rescue.online/newpass.php(119): mysqli->query()
+#1 {main}
+  thrown in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/newpass.php on line 119
+[15-May-2023 07:30:40 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/add_user.php on line 18
+[15-May-2023 07:33:21 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/add_user.php on line 18
+[15-May-2023 07:45:03 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/add_user.php on line 18
+[21-May-2023 09:51:45 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/add_user.php on line 18
+[22-May-2023 01:40:19 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/add_user.php on line 18
+[25-May-2023 07:21:06 UTC] PHP Warning:  Undefined array key "pass" in /home/tj6gnl1k9vif/public_html/sccp-rescue.online/add_user.php on line 18
