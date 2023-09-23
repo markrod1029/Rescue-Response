@@ -1,0 +1,137 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(226, 225, 224);
+}
+.header p{
+    color: black;
+}
+.table{
+    height: 550px;
+    overflow: auto;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-left: 1rem;
+}
+thead th{
+    position: sticky;
+    top: 0;
+    background: rgb(255, 101, 6);
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+th, td{
+    border-bottom: 1px solid white;
+    padding: 10px 10px;
+    word-break: break-all;
+    text-align: center;
+}
+tbody td{
+    font-size: 12px;
+}
+tr:hover td{
+    color: rgb(247, 149, 13);
+    cursor: pointer;
+    background: white;
+}
+.buttons{
+    outline: none;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+}
+.buttons a{
+    color: white;
+}
+td button:nth-child(1){
+    background-color: rgb(4, 134, 67);
+}
+td button:nth-child(2){
+    background-color: rgb(21, 43, 204);
+}
+td button:nth-child(3){
+    background-color: rgb(203, 0, 0);
+}
+::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+        background: rgb(226, 225, 224);
+    }
+    thead th{
+        position: sticky;
+        top: 0;
+        background: rgb(255, 101, 6);
+        color: white;
+        font-size: 10px;
+        padding: 4px;
+        text-align: center;
+    }
+    th, td{
+        border-bottom: 1px solid white;
+        padding: 5px 5px;
+        word-break: break-all;
+        text-align: center;
+    }
+    tbody td{
+        font-size: 8px;
+    }
+    .buttons{
+        outline: none;
+        border: none;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    .search{
+        border: 1px solid #ccc;
+        background: white;
+        height: 20px;
+        display: flex;
+        overflow-x: hidden;
+
+    }
+    .search button{
+        background: rgb(255, 77, 32);
+        height: 30px;
+        width:30px;
+        border: none;
+    }
+    .search i{
+        display: inline-block;
+        color: rgb(252, 252, 252);
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+    .search input{
+        height: 100%;
+        width: 100%;
+        padding: .1rem;
+        border: none;
+        font-size: 9px;
+        transition: 2s;
+        outline: none;
+    }
+    .add button{
+        padding:  1px;
+        background: rgb(245, 77, 25);
+        border: none;
+        border-radius: 3px;
+    }
+    .add button a{
+        color: white;
+        font-size: 8px;
+    }
+}

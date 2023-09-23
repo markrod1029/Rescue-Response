@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+#nav{
+    background-color: #F9F9F9;
+    position:fixed;
+    width: 100%;
+    padding: 1px;
+}
+#nav span{
+    line-height: 70px;
+    font-size: 30px;
+    color: #000;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.forms{
+    position: fixed;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 70%;
+    background: #fff;
+    padding: 40px 30px;
+    perspective: 2700px;
+  }
+.form-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-content .login-form,
+.form-content .signup-form{
+    width: calc(100% / 1 - 25px);
+}
+.forms .form-content .title{
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+}
+
+  .forms .signup-form  .title:before{
+    width: 20px;
+  }
+  .forms .form-content .input-boxes{
+    margin-top: 30px;
+  }
+  .forms .form-content .input-box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+  }
+  .form-content .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .form-content .input-box input:focus{
+    border-color: #DC5F00;
+  }
+  .form-content .input-box i{
+    position: absolute;
+    color: #DC5F00;
+    font-size: 17px;
+  }
+  .forms .form-content .text{
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  .forms .form-content .text a{
+    text-decoration: none;
+  }
+  .forms .form-content .text a:hover{
+    text-decoration: underline;
+  }
+  .forms .form-content .button{
+    color: #fff;
+    margin-top: 20px;
+  }
+  .forms .form-content .button input{
+    color: #fff;
+    background: #FF6D28;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  .forms .form-content .button input:hover{
+    background: #DC5F00;
+  }
+  .forms .form-content label{
+    color: #DC5F00;
+    cursor: pointer;
+  }
+  .forms .form-content label:hover{
+    text-decoration: underline;
+  }
+  .forms .form-content .login-text,
+  .forms .form-content .sign-up-text{
+    text-align: center;
+    margin-top: 25px;
+  }
+.login-signup{
+text-align: center;
+}
+
+  @media screen and (max-width: 900px){
+    #nav span{
+        line-height: 70px;
+        font-size: 12px;
+        color: #fff;
+      
+    }
+    .forms{
+        position: fixed;
+        margin-left: 20px;
+        margin-top: 150px;
+        width: 90%;
+        font-size: 13px;
+        background: #fff;
+        padding: 30px 20px;
+        perspective: 2700px;
+      }
+      .form-content .input-box input{
+        font-size: 12px;
+      }
+      #nav span{
+        line-height: 70px;
+        font-size: 12px;
+        color: #000;
+    }
+
+}
